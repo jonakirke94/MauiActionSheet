@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:mct="clr-namespace:CommunityToolkit.Maui.Layouts;assembly=CommunityToolkit.Maui"
+              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+               x:Class="MauiActionSheet.SimplePopup">
+
+
+    <StackLayout Padding="5" HorizontalOptions="CenterAndExpand" x:Name="TheGrid">
+        <VerticalStackLayout x:Name="ActionSheet"
+                             HorizontalOptions="FillAndExpand"></VerticalStackLayout>
+
+      
+    </StackLayout>
+
+</toolkit:Popup>
